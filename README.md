@@ -1,5 +1,5 @@
 # CD-Mamba: Cloud Detection with Long-Range Spatial Dependency Modeling
-- [arXiv](https://arxiv.org/abs/2503.12495)
+- [arXiv](https://arxiv.org/abs/2509.xxxxx)
 - The Biome dataset was [split using 4-fold cross-validation](./split), and only the Red, Green, Blue, and Near-Infrared bands were used.
 	- [Mask Download link](https://drive.google.com/file/d/16hXumZitYItkqnNssattDAU37r812EcL/view?usp=sharing)
 	- [Biome Dataset](https://landsat.usgs.gov/landsat-8-cloud-cover-assessment-validation-data)
@@ -11,7 +11,8 @@ Remote sensing images are frequently obscured by cloud cover, posing significant
 # Experiment
 ## Train
 ```sh
-# Replace the package in your Mamba env lib/python3.10/site-packages/ with the one from folder mamba_ssm.
+# Replace the package in your Mamba env lib/python3.10/site-packages/ 
+# with the one from folder mamba_ssm.
 cd f01
 python traincloudmamba.py
 ```
